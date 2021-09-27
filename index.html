@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Smith Resume</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Smith</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link"
+                ><i class="bx bx-home nav__icon"></i> Home</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#home" class="nav__link"
+                ><i class="bx bx-user nav__icon"></i> Profile</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link"
+                ><i class="bx bx-book nav__icon"></i> Education</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="bx bx-receipt nav__icon"></i> Skills</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"
+                ><i class="bx bx-briefcase nav__icon"></i> Experience</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"
+                ><i class="bx bx-award nav__icon"></i> Certificates</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#references" class="nav__link"
+                ><i class="bx bx-link-external nav__icon"></i> References</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="div nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav__icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div are generated in PDF -->
+      <div class="resume" id="area-cv">
+        <!-- Left start -->
+        <div class="resume__left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home__dontainer section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="/img/profile.png" alt="" class="home__img" />
+                <h1 class="home__title">SMITH <b>JONH</b></h1>
+                <h3 class="home__profession">Program coordinator</h3>
+                <!-- Button to download CV as premade PDF, available for mobile. -->
+
+                <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                <div>
+                  <a
+                    download=""
+                    href="/pdf/sample.pdf"
+                    class="home__button-mobile"
+                    >Download resume</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>5th Street, 55015 New York, NY, USA
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i
+                  >j.smith@fakemail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>+1 555 123 4567
+                </span>
+              </div>
+            </div>
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+          </section>
+
+          <!-- Dark/light theme button -->
+
+          
+
+          <!-- Social -->
+
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a href="#" target="_blank" class="social__link">
+                <i class="bx bxl-linkedin-square social__icon"></i> @j.smith
+              </a>
+              <a href="#" target="_blank" class="social__link">
+                <i class="bx bxl-twitter social__icon"></i> @smittie
+              </a>
+              <a href="#" target="_blank" class="social__link">
+                <i class="bx bxl-facebook-square social__icon"></i> @smith.john
+              </a>
+            </div>
+          </section>
+
+          <!-- Profile -->
+
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+              iusto atque possimus explicabo eaque aliquam placeat, dicta
+              perferendis, dolorem, illum blanditiis accusamus consequatur
+              maiores necessitatibus deleniti.
+            </p>
+          </section>
+
+          <!-- Education and training -->
+
+          <section class="education section" id="education">
+            <h2 class="section-title">Education and training</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">CS Studies</h3>
+                  <span class="education__studies"
+                    >Stanford University</span
+                  >
+                  <span class="education__year">2010 – 2019</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">PHD Studies at Michigan Uni</h3>
+                  <span class="education__studies"
+                    >Neural computing network</span
+                  >
+                  <!-- <p>Student visit to Kosovo insitutions</p> -->
+                  <span class="education__year">2015 – 2020</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Specialty Course</h3>
+                  <span class="education__studies"
+                    >Implementation of technology in everyday medicine</span
+                  >
+                  <span class="education__year">2006 - 2008</span>
+                </div>
+              </div>
+
+<!--               <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">”One million bones”</h3>
+                  <span class="education__studies"
+                    >Post-conflict Research Center, Bosnia and Herzegovina</span
+                  >
+                  <p>
+                    Large-scale social arts practice which combines education,
+                    hands-on art making, and public installations to raise
+                    awareness of ongoing genocides and mass atrocities.
+                  </p>
+                  <span class="education__year">07/2015</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Justice without reconciliation? War crimes and trials in
+                    Europe since 1945
+                  </h3>
+                  <span class="education__studies"
+                    >OFAJ program - The Franco-German Youth Office, exchange
+                    programme</span
+                  >
+                  <p>
+                    The overall aim of the program was to explore and discuss
+                    the question of war crimes and war crime trials in four
+                    countries (France, Germany, Serbia, Kosovo) especially their
+                    role in post-warreconciliation processes. The Program was
+                    consisted of three phases, the first part has been held in
+                    Dachau (Germany) and The Hague (Netherlands). It will dealt
+                    with the topics of crimes committed by the German National
+                    Socialists during World War II and their impact on
+                    societies; the development of international and national
+                    criminal law; the establishment and the role of the
+                    International Criminal Tribunal for the former Yugoslavia
+                    for the reconciliation in the South Eastern Europe. The
+                    second phase of project was held in France in March 2016 and
+                    the third phase in Serbia and Kosovo, November 2016.
+                  </p>
+                  <span class="education__year">11/2015 - 11/2016</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Transitional Justice School</h3>
+                  <span class="education__studies"
+                    >Humanitarian Law Center - HLC, Belgrade, Serbia</span
+                  >
+                  <span class="education__year">03/2016 – 05/2016</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    ODIHR Training on Human Rights Monitoring and Safety and
+                    Security
+                  </h3>
+                  <span class="education__studies"
+                    >ODIHR - The Office for Democratic Insitutions and Human
+                    Rights, Warsaw Budva, Montenegro</span
+                  >
+                  <span class="education__year">10/2016</span>
+                </div>
+              </div> -->
+
+<!--               <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Peace and Conflict Summer Program 2017
+                  </h3>
+                  <span class="education__studies"
+                    >RIT Kosovo™ (A.U.K) - Rochester Institute of Technology,
+                    Kosovo Prishtina, Kosovo</span
+                  >
+                  <span class="education__year">06/2017 – 07/2017</span>
+                </div>
+              </div> -->
+
+              <!-- <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span> -->
+                  <!-- <span class="education__line"></span> -->
+            <!--     </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Training in Project Managment
+                  </h3>
+                  <span class="education__studies"
+                    >Balkan Investigative Regional Reporting Network Tirana,
+                    Albania</span
+                  >
+                  <span class="education__year">10/2020</span>
+                </div>
+              </div> -->
+            </div>
+          </section>
+
+          <!-- Skills -->
+
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>HTML
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>JavaScript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Design
+                </li>
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>React
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Angular
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Vue
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <!-- Left end -->
+
+        <!-- Right start -->
+        <div class="resume__right">
+          <!-- Experience -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">MASTER OF DESIGN</h3>
+                  <span class="experience__company"
+                    >From 2000 to 2005 | Apple Inc.</span
+                  >
+                  <p class="experience__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nihil ratione laborum laudantium veniam aspernatur
+                    voluptatum molestiae, tenetur unde facilis rem.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">UI / UX DESIGN AREA</h3>
+                  <span class="experience__company"
+                    >From 2005 to 2010 | Alphabet Inc.</span
+                  <p class="experience__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nihil ratione laborum laudantium veniam aspernatur
+                    voluptatum molestiae, tenetur unde facilis rem.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="expwrience__line"></span> -->
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">MOBILE APP DEV</h3>
+                  <span class="experience__company"
+                    >From 2010 to 2015 | Facebook Inc.</span
+                  >
+                  <p class="experience__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nihil ratione laborum laudantium veniam aspernatur
+                    voluptatum molestiae, tenetur unde facilis rem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Certificates -->
+
+          <section class="certificate section" id="certificates">
+              <h2 class="section-title">Certificates</h2>
+              <div class="certificate__container bd-grid">
+                  <div class="certificate__content">
+                      <h3 class="certificate__title">Certificate of attendance on computer technology (2019)</h3>
+                      <p class="certificate__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos sint quam ut neque atque aut eos quis, eveniet maxime.</p>
+                  </div>
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">Certificate of attendance in the work area (2015)</h3>
+                    <p class="certificate__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos sint quam ut neque atque aut eos quis, eveniet maxime.</p>
+                </div>
+                <div class="certificate__content">
+                    <h3 class="certificate__title">Medal for productvity excellence (2013)</h3>
+                    <p class="certificate__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos sint quam ut neque atque aut eos quis, eveniet maxime.</p>
+                </div>
+              </div>
+          </section>
+
+          <!-- References -->
+
+          <section class="references section" id="references">
+              <h2 class="section-title">References</h2>
+
+              <div class="references__container bd-grid">
+                  <div class="references__content bd-grid">
+                      <span class="references__subtitle">CEO Apple</span>
+                      <h3 class="references__title">Tim Cook</h3>
+                      <ul class="references__contact">
+                          <li>Phone: 123 456 7890</li>
+                          <li>email: tim@apple.com</li>
+                      </ul>
+                  </div>
+
+                  <div class="references__content bd-grid">
+                    <span class="references__subtitle">CEO Amazon</span>
+                    <h3 class="references__title">Jef Bezos</h3>
+                    <ul class="references__contact">
+                        <li>Phone: 987 456 7890</li>
+                        <li>email: jef@amazon.com</li>
+                    </ul>
+                </div>
+              </div>
+          </section>
+
+          <!-- Languages -->
+
+          <section class="languages section">
+              <h2 class="section-title">Languages</h2>
+
+              <div class="languages__container">
+                  <ul class="languages__content bd-grid">
+                      <li class="languages__name">
+                          <span class="languages__circle"></span>English
+                      </li>
+                      <li class="languages__name">
+                        <span class="languages__circle"></span>Spanish
+                    </li>
+                    <li class="languages__name">
+                        <span class="languages__circle"></span>German
+                    </li>
+                    <li class="languages__name">
+                        <span class="languages__circle"></span>Swedish
+                    </li>
+                  </ul>
+              </div>
+          </section>
+
+<!-- Interests -->
+
+<section class="interests section">
+    <h2 class="section-title">Interests</h2>
+    <div class="interests__container bd-grid">
+        <div class="interests__content">
+            <i class='bx bx-headphone interests__icon' ></i>
+            <span class="interests__name">Music</span>
+        </div>
+
+        <div class="interests__content">
+            <i class="bx bxs-plane-alt interests__icon"></i>
+            <span class="interests__name">Travel</span>
+        </div>
+
+        <div class="interests__content">
+            <i class="bx bx-book interests__icon"></i>
+            <span class="interests__name">Reading</span>
+        </div>
+
+        <div class="interests__content">
+            <i class="bx bx-dumbbell interests__icon"></i>
+            <span class="interests__name">Workout</span>
+        </div>
+    </div>
+</section>
+
+        </div>
+        <!-- Right end -->
+      </div>
+    </main>
+
+    <!-- Scroll top -->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+<!-- html2pdf script -->
+
+<script src="/html2pdf.bundle.min.js"></script>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
